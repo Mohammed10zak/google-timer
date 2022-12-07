@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="main.js" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Timer</title>
+</head>
+
+<body>
+  <main>
+    <div class="time">
+      <ul class="timer_link">
+        <li class="timer">
+          <span><img class="timer_icon"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzQyODVGNCI+CiAgICA8cGF0aCBkPSJNMTIgNXYxMGw5IDktOSA5djEwaDI0VjMzbC05LTkgOS05VjVIMTJ6bTIwIDI5djVIMTZ2LTVsOC04IDggOHptLTgtMTJsLTgtOFY5aDE2djVsLTggOHoiLz4KICAgIDxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0wIDBoNDh2NDhIMFYweiIvPgo8L3N2Zz4K"
+              width="18px" height="18px" /></span>
+          <a href="#">TIMER</a>
+        </li>
+        <li class="stopwatch">
+          <span><img class="stopwatch_icon"
+              src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNnB4IiBoZWlnaHQ9IjM2cHgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0iIzQyODVGNCI+CiAgICA8cGF0aCBkPSJNMCAwaDQ4djQ4SDB6IiBmaWxsPSJub25lIi8+CiAgICA8cGF0aCBkPSJNMzAgMkgxOHY0aDEyVjJ6bS04IDI2aDRWMTZoLTR2MTJ6bTE2LjA1LTEzLjIzbDIuODUtMi44NWMtLjg2LTEuMDMtMS44LTEuOTctMi44My0yLjgzbC0yLjg1IDIuODVDMzIuMTUgOS40OCAyOC4yNCA4IDIzLjk5IDggMTQuMDQgOCA2IDE2LjA2IDYgMjZzOC4wNCAxOCAxNy45OSAxOFM0MiAzNS45NCA0MiAyNmMwLTQuMjUtMS40OC04LjE1LTMuOTUtMTEuMjN6TTI0IDQwYy03LjczIDAtMTQtNi4yNy0xNC0xNHM2LjI3LTE0IDE0LTE0IDE0IDYuMjcgMTQgMTQtNi4yNyAxNC0xNCAxNHoiLz4KPC9zdmc+Cg=="
+              width="18px" height="18px" /></span>
+          <a href="#" target="_self">STOPWATCH</a>
+        </li>
+      </ul>
+      <div id="timer"></div>
+      <div id="timerEditor">
+        <input id="timerInput" placeholder="00" />
+      </div>
+      <section>
+        <button id="start">Start</button>
+        <button id="stop" hidden>Stop</button>
+        <button id="reset">RESET</button>
+      </section>
+    </div>
+    <audio id="timer-audio"></audio>
+  </main>
+</body>
+
+</html>
